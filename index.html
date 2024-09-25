@@ -1,62 +1,62 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- Khai báo tài liệu HTML5 -->
 <html>
     <head>
-        <meta charset="utf-8">
-        <title>bt3</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-               
+        <meta charset="utf-8"> <!-- Đặt mã hóa ký tự là UTF-8 để hỗ trợ các ký tự đặc biệt -->
+        <title>bt3</title> <!-- Tiêu đề trang web sẽ hiển thị trên tab của trình duyệt là "bt3" -->
+        <meta name="description" content=""> <!-- Meta description (mô tả trang), hiện đang để trống -->
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Giúp trang web đáp ứng trên các thiết bị di động bằng cách đặt tỷ lệ viewport -->
+
         <style>
             body {
-                background-color: pink;
-                text-align: center; /* Center all text */
+                background-color: pink; /* Màu nền của trang web là màu hồng */
+                text-align: center; /* Căn giữa toàn bộ nội dung văn bản */
             }
             .item {
-                margin: 10px;
-                font-size: 24px;
+                margin: 10px; /* Khoảng cách xung quanh các phần tử là 10px */
+                font-size: 24px; /* Kích thước chữ là 24px */
             }
             .item img {
-                width: 400px;
-                height: 225px;
-                border: 3px solid black;
-                transition: transform 0.3s ease; /* Smooth transition for zoom */
+                width: 400px; /* Chiều rộng ảnh là 400px */
+                height: 225px; /* Chiều cao ảnh là 225px */
+                border: 3px solid black; /* Viền đen xung quanh ảnh dày 3px */
+                transition: transform 0.3s ease; /* Hiệu ứng chuyển tiếp khi di chuột vào ảnh, kéo dài 0.3 giây */
             }
             .item img:hover {
-                transform: scale(1.2); /* Zoom-in effect */
+                transform: scale(1.2); /* Khi di chuột vào ảnh, ảnh sẽ phóng to 1.2 lần */
             }
             .container {
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                display: flex; /* Sử dụng Flexbox để sắp xếp các phần tử bên trong */
+                justify-content: center; /* Căn giữa các phần tử theo chiều ngang */
+                align-items: center; /* Căn giữa các phần tử theo chiều dọc */
             }
             footer {
-                margin-top: 20px;
+                margin-top: 20px; /* Khoảng cách trên của footer là 20px */
             }
         </style>
     </head>
     <body>
         <div>
-            <h1>Bài tập 3</h1>
-            <h2>Phòng treo tranh</h2>
+            <h1>Bài tập 3</h1> <!-- Tiêu đề chính của trang là "Bài tập 3" -->
+            <h2>Phòng treo tranh</h2> <!-- Tiêu đề phụ là "Phòng treo tranh" -->
         </div>
 
-        <div class="container">
-            <div class="item">
-                <img src="watch1.jpg" alt="dongho1">
-                <p>Đá đỳ</p>
+        <div class="container"> <!-- Container chứa các mục "item" bên trong -->
+            <div class="item"> <!-- Mỗi "item" là một phần tử chứa hình ảnh và chú thích -->
+                <img src="watch1.jpg" alt="dongho1"> <!-- Ảnh đầu tiên với tên file "watch1.jpg", chú thích thay thế là "dongho1" -->
+                <p>Đá đỳ</p> <!-- Chú thích dưới hình ảnh -->
             </div>
             <div class="item">
-                <img src="watch2.jpg" alt="dongho2">
-                <p>Mualani</p>
+                <img src="watch2.jpg" alt="dongho2"> <!-- Ảnh thứ hai -->
+                <p>Mualani</p> <!-- Chú thích dưới hình ảnh thứ hai -->
             </div>
             <div class="item">
-                <img src="watch3.jpg" alt="dongho3">
-                <p>Dê dừa</p>
+                <img src="watch3.jpg" alt="dongho3"> <!-- Ảnh thứ ba -->
+                <p>Dê dừa</p> <!-- Chú thích dưới hình ảnh thứ ba -->
             </div>
         </div>
         
-        <footer style="background-color: rgba(173, 216, 230, 0);">
-            <a href="https://akasha.cv/profile/821528407">Nguồn</a>
+        <footer style="background-color: rgba(173, 216, 230, 0);"> <!-- Footer với màu nền trong suốt -->
+            <a href="https://akasha.cv/profile/821528407">Nguồn</a> <!-- Đường dẫn đến nguồn -->
         </footer>
     </body>
 </html>
